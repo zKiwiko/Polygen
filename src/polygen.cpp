@@ -17,7 +17,8 @@ const std::map<Language, std::vector<std::string>> directories = {
         {JULIA, {"src", "tests", "docs", "data"}},
         {DART, {"bin", "lib", "tests"}},
         {JAVASCRIPT, {"src", "public", "components", "styles", "tests"}},
-        {GO, {"cmd", "internal", "pkg", "api", "docs"}}
+        {GO, {"cmd", "internal", "pkg", "api", "docs"}},
+        {HTML, {"scripts", "themes"}}
     };
     
 const std::map<Language, std::vector<Template>> templates = {
@@ -57,7 +58,7 @@ const std::map<Language, std::vector<Template>> templates = {
         {"test/test.go", ""},
         {"go.mod", GO_MOD},
         {"go.sum", ""},
-        {"gitignore", "*.exe\n*.so\n*.out\nbin/\nobj/"}
+        {".gitignore", "*.exe\n*.so\n*.out\nbin/\nobj/"}
     }},
     {DART, {
         {"bin/main.dart", DART_MAIN},
