@@ -56,8 +56,8 @@ Project-Name/
 |- src/
     |- main.c
     |- {project-name}.c
-.gitignore
-CMakeLists.txt
+|- .gitignore
+|- CMakeLists.txt
 ```
 ### C++
 ```
